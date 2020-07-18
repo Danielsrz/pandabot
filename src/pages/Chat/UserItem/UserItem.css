@@ -1,0 +1,30 @@
+.user-item-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.user-item-container label {
+    font-size: 14px;
+    color: white;
+    background: #416a99 ;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: normal;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.user-item-container img{
+    height: 70px;
+    padding-right: 5px;
+}
+
+.user-item-messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
